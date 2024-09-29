@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 200vh;
+   overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./axrafon\ şəkli.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ul{
+    width: 50vw;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+h2{
+    color: rgb(241, 8, 241);
+    font-family: sans-serif;
+    display: inline;
+    padding-left: 15%;
+}
+.item{
+    background-color: rgba(60, 54, 130, 0.609);
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 850px;
+    font-size: 60px;
+    font-family: sans-serif;
+    line-height: 100px;
+    color: white;
+}
+span{
+    color: blueviolet;
+}
+.span2{
+    color: white;
+    margin-left: -20px;
+}
+.span3{
+    color: white;
+    margin-left: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+button{
+    background-color: rgb(170, 79, 255);
+    border: none;
+    margin-left: 870px;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
