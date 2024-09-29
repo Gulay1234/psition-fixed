@@ -86,3 +86,9 @@ button{
     color: white;
     border-radius: 5px;
 }
+button:hover{
+    background-color: rgb(185, 111, 255) !important;
+}
+li:hover{
+    color:  rgb(241, 8, 241) !important;
+}
